@@ -9,7 +9,7 @@ f.write("\taddend1_out, addend2_out: OUT STD_LOGIC_VECTOR(62 downto 0);\n")
 f.write("\tM_lsb: OUT STD_LOGIC\n);\nEND dadda_tree;\n\n")
 f.write("ARCHITECTURE struct OF dadda_tree IS\n")
 f.write("\nCOMPONENT FA IS\nPORT(\n\ta, b, c_in : IN std_logic;\n")
-f.write("\t	s, c_out : OUT std_logic);\nEND COMPONENT;\n\nCOMPONENT HA IS\n")
+f.write("\ts, c_out : OUT std_logic);\nEND COMPONENT;\n\nCOMPONENT HA IS\n")
 f.write("PORT(\n\ta, b : IN std_logic;\n\t	s, c_out : OUT std_logic);\nEND COMPONENT;\n")
 
 f.close()
