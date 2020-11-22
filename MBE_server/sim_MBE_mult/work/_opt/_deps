@@ -1,0 +1,20 @@
+H 2141964 11 3 0 10 6 0 0 0 0
+L 4 ieee 19 $MODEL_TECH/../ieee
+L 3 std 18 $MODEL_TECH/../std
+L 4 work 6 ./work
+D 19 ./work.clk_gen(beh) NO7_gNL12I:1I665ao4Gj3 5 1
+D 25 ./work.dadda_tree(struct) AY@1m=PgT[X7WdL1>4BE01 4 1
+D 22 ./work.data_maker(beh) ]B7MaDh[f_Q<RANoBE>:U3 6 1
+D 21 ./work.data_sink(beh) gEA_K3?CnCmaLcz>b2n?K0 8 1
+D 20 ./work.fa(behaviour) E1]b7:h>F=IJdU0cJJo<_3 3 1
+D 20 ./work.ha(behaviour) fePdAnmTGcX7V>9^JHMIX2 2 1
+D 23 ./work.mbe_encoder(beh) [VM:fm?2d6JTWRnO?GA5g0 1 1
+D 21 ./work.mbe_mult(arch) k3^e>@So_PLdaVJhUUe<]3 7 1
+D 31 ./work.mux_4to1_nbit(behaviour) gZja^AlT_e;R9X:EdbKH11 0 1
+D 18 ./work.tb_MBE_mult H0VnzZUUSQh^Fj_RBSJd00 9 0
+2 0  1 badV:??e4TF0UNGlNIFC_3 0 0 1
+2 0  1 =6?@GiO<lW2IgNoz3?f932 1 1 1
+2 0  0 oV4^l8i]<CQY9;;F8EYRH3 2 2 1
+2 0  0 dTnUKJg>kmL7hnNGCGkE50 3 3 1
+2 0  0 iDBG3E@?nK`E2DM1^E:]21 4 4 1
+2 4 fast 0 WnGTP?blj]j8G0]PF^60g0 5 9 1

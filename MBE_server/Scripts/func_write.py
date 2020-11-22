@@ -29,9 +29,9 @@ def write_signals(adder_num):
 
 	for i in range(len(adder_num)):
 		if adder_num[i] != 1:
-			f_sgn.write("\tSIGNAL : sum_" + str(i) + ", c_out_" + str(i) + ": STD_LOGIC_VECTOR (" + str(adder_num[i]-1) + " downto 0);\n")
+			f_sgn.write("\tSIGNAL sum_" + str(i) + ", c_out_" + str(i) + ": STD_LOGIC_VECTOR (" + str(adder_num[i]-1) + " downto 0);\n")
 		else:
-			f_sgn.write("\tSIGNAL : sum_" + str(i) + ", c_out_" + str(i) + ": STD_LOGIC;\n\n")
+			f_sgn.write("\tSIGNAL sum_" + str(i) + ", c_out_" + str(i) + ": STD_LOGIC;\n\n")
 
 	f_sgn.write("BEGIN\n\n")
 

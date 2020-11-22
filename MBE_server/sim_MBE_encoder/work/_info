@@ -1,0 +1,189 @@
+m255
+13
+cModel Technology
+d/home/isa07/Desktop/Lab2/MBE/sim_MBE_encoder
+T_opt
+VO_PGkQBMgG@B7jeScX4SM1
+06 13 9 ./work mux_4to1_nbit behaviour 1
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2g;35
+T_opt1
+V;=DOD<IHM2C1J]_gDeDSa0
+06 14 4 ./work tb_MBE_encoder fast 0
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2g;35
+Eclk_gen
+w1604397835
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8./tb/clk_gen.vhd
+F./tb/clk_gen.vhd
+l0
+L6
+V3ja^VV>ITT8mK1]I7^nn81
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abeh
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work clk_gen 3ja^VV>ITT8mK1]I7^nn81
+l20
+L14
+VNO7_gNL12I:1I665ao4Gj3
+OE;C;6.2g;35
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-93 -work ./work
+tExplicit 1
+Edata_maker
+w1605971908
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8./tb/data_maker.vhd
+F./tb/data_maker.vhd
+l0
+L11
+V9nOEmV4bizne@UX;JdHiY1
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abeh
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work data_maker 9nOEmV4bizne@UX;JdHiY1
+l20
+L18
+V6H7=dSiOQJBfLz0_BhG4c3
+OE;C;6.2g;35
+31
+M6 ieee std_logic_1164
+M5 ieee std_logic_arith
+M4 ieee std_logic_unsigned
+M3 ieee std_logic_textio
+M2 std textio
+M1 ieee numeric_std
+o-93 -work ./work
+tExplicit 1
+Edata_sink
+w1605968594
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8./tb/data_sink.vhd
+F./tb/data_sink.vhd
+l0
+L11
+V`0ld=k?RDYc6G]TESGPYD0
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abeh
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work data_sink `0ld=k?RDYc6G]TESGPYD0
+l21
+L19
+VL9KBek6gVZle?NNJa>kA:3
+OE;C;6.2g;35
+31
+M6 ieee std_logic_1164
+M5 ieee numeric_std
+M4 ieee std_logic_unsigned
+M3 ieee std_logic_arith
+M2 ieee std_logic_textio
+M1 std textio
+o-93 -work ./work
+tExplicit 1
+Embe_encoder
+w1605970719
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../src/MBE_encoder.vhd
+F../src/MBE_encoder.vhd
+l0
+L6
+VgjK0YZWaN@zP8_3Y^:mel1
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abeh
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mbe_encoder gjK0YZWaN@zP8_3Y^:mel1
+l34
+L15
+V[VM:fm?2d6JTWRnO?GA5g0
+OE;C;6.2g;35
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee numeric_std
+o-93 -work ./work
+tExplicit 1
+Emux_4to1_nbit
+w1605969825
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../src/mux_4to1_nbit.vhd
+F../src/mux_4to1_nbit.vhd
+l0
+L5
+Vd]o>_Ki8eZDN[0?G^32ca2
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abehaviour
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_4to1_nbit d]o>_Ki8eZDN[0?G^32ca2
+l15
+L14
+VgZja^AlT_e;R9X:EdbKH11
+OE;C;6.2g;35
+31
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-93 -work ./work
+tExplicit 1
+vtb_MBE_encoder
+Ii2UCOzlBAP?PHQi`Z]<1n1
+V2gIQ=9Eec7UDk<b:PkCiE3
+w1605968963
+8./tb/tb_MBE_encoder.v
+F./tb/tb_MBE_encoder.v
+L0 3
+V2gIQ=9Eec7UDk<b:PkCiE3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+ntb_@m@b@e_encoder

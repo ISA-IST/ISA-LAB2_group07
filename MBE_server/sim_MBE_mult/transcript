@@ -1,0 +1,1107 @@
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# ** Error: ../src/dadda_tree.vhd(159): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(159): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(159): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(159): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(167): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(167): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(167): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(167): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(167): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(176): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(176): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(176): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(176): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(185): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(185): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(185): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(193): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(193): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(193): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(193): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(193): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(309): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(309): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(309): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(309): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(316): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(316): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(316): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(322): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(322): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(322): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(322): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(322): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(329): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(329): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(329): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(329): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(431): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(431): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(431): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(435): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(435): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(435): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(435): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(435): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(440): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(440): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(440): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(440): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(500): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(500): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(500): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(502): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(502): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(502): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(502): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(502): near ")": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(565): near ",": expecting: ';'
+# ** Error: ../src/dadda_tree.vhd(565): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(565): near ",": expecting: <= :=
+# ** Error: ../src/dadda_tree.vhd(565): near ")": expecting: <= :=
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_mult.do line 5
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/dadda_tree.vhd"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# ** Error: ../src/MBE_mult.vhd(47): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.numeric_std.unsigned (type declaration)
+#         ieee.std_logic_arith.unsigned (type declaration)
+# ** Error: ../src/MBE_mult.vhd(121): (vcom-1136) Unknown identifier "s_n".
+# ** Error: ../src/MBE_mult.vhd(124): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.numeric_std.unsigned (type declaration)
+#         ieee.std_logic_arith.unsigned (type declaration)
+# ** Error: ../src/MBE_mult.vhd(124): (vcom-1078) Identifier "unsigned" is not directly visible.
+#    Potentially visible declarations are:
+#         ieee.numeric_std.unsigned (type declaration)
+#         ieee.std_logic_arith.unsigned (type declaration)
+# ** Error: ../src/MBE_mult.vhd(124): Type error resolving infix expression "+" as type (error).
+# ** Error: ../src/MBE_mult.vhd(125): Illegal type conversion to ieee.std_logic_1164.std_logic_vector (operand type is not known).
+# ** Error: ../src/MBE_mult.vhd(131): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_mult.do line 6
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_mult.vhd"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_mult_pipe 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Failed to find design unit work.tb_mult_pipe.
+# Optimization failed
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./sim_MBE_mult.do PAUSED at line 14
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_MBE_mult 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ./tb/tb_MBE_mult.v(20): Module 'fpmul' is not defined.
+# ** Error: ./tb/data_sink.vhd(19): Vopt Compiler exiting
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./sim_MBE_mult.do PAUSED at line 14
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_MBE_mult 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_MBE_mult(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading work.data_maker(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.mbe_mult(arch)#1
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.dadda_tree(struct)
+# Loading work.ha(behaviour)
+# Loading work.fa(behaviour)
+# Loading work.data_sink(beh)
+quit -sim
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# ** Error: ./tb/data_maker.vhd(22): Expecting a type name, found enumeration literal "write_mode" instead.
+# ** Error: ./tb/data_maker.vhd(22): Bad resolution function for type (error).
+# ** Error: ./tb/data_maker.vhd(22): FILE declaration must have a subtype indication that is a file type.
+# ** Error: ./tb/data_maker.vhd(34): Target of signal assignment is not a signal.
+# ** Error: ./tb/data_maker.vhd(34): Ambiguous type in infix expression; ieee.std_logic_1164.std_logic_vector or ieee.std_logic_arith.unsigned.
+# ** Error: ./tb/data_maker.vhd(34): Illegal type conversion to ieee.std_logic_1164.std_logic_vector (operand type is not known).
+# ** Error: ./tb/data_maker.vhd(40): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_mult.do line 10
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# ** Error: ./tb/data_maker.vhd(34): Target of signal assignment is not a signal.
+# ** Error: ./tb/data_maker.vhd(34): Ambiguous type in infix expression; ieee.std_logic_1164.std_logic_vector or ieee.std_logic_arith.unsigned.
+# ** Error: ./tb/data_maker.vhd(34): Illegal type conversion to ieee.std_logic_1164.std_logic_vector (operand type is not known).
+# ** Error: ./tb/data_maker.vhd(40): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_mult.do line 10
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# ** Error: ./tb/data_maker.vhd(34): Ambiguous type in infix expression; ieee.std_logic_1164.std_logic_vector or ieee.std_logic_arith.unsigned.
+# ** Error: ./tb/data_maker.vhd(34): Illegal type conversion to ieee.std_logic_1164.std_logic_vector (operand type is not known).
+# ** Error: ./tb/data_maker.vhd(40): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_mult.do line 10
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# ** Error: ./tb/data_maker.vhd(35): No feasible entries for subprogram "hwrite".
+# ** Error: ./tb/data_maker.vhd(40): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_mult.do line 10
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_MBE_mult 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_MBE_mult(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading work.data_maker(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.mbe_mult(arch)#1
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.dadda_tree(struct)
+# Loading work.ha(behaviour)
+# Loading work.fa(behaviour)
+# Loading work.data_sink(beh)
+quit -sim
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# ** Error: ./tb/tb_MBE_mult.v(17): near ".": syntax error, unexpected '.', expecting ')'
+# ** Error: /software/mentor/modelsim_6.2g/linux/vlog failed.
+# Error in macro ./sim_MBE_mult.do line 12
+# /software/mentor/modelsim_6.2g/linux/vlog failed.
+#     while executing
+# "vlog -work ./work ./tb/tb_MBE_mult.v"
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_MBE_mult 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_MBE_mult(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading work.data_maker(beh)
+# ** Error: (vsim-7) Failed to open VHDL file "./tb/B_mult.hex" in r mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_MBE_mult/SM
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.mbe_mult(arch)#1
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.dadda_tree(struct)
+# Loading work.ha(behaviour)
+# Loading work.fa(behaviour)
+# Loading work.data_sink(beh)
+# ** Fatal: (vsim-7) Failed to open VHDL file "./tb/B_mult.hex" in r mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 5 ns  Iteration: 2  Process: /tb_MBE_mult/SM/line__20 File: ./tb/data_maker.vhd
+# Fatal error in Process line__20 at ./tb/data_maker.vhd line 37
+# 
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_MBE_mult 
+# Loading work.tb_MBE_mult(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading work.data_maker(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.mbe_mult(arch)#1
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.dadda_tree(struct)
+# Loading work.ha(behaviour)
+# Loading work.fa(behaviour)
+# Loading work.data_sink(beh)
+do sim_MBE_mult.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behaviour of fa
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity ha
+# -- Compiling architecture behaviour of ha
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity dadda_tree
+# -- Compiling architecture struct of dadda_tree
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mbe_mult
+# -- Compiling architecture arch of mbe_mult
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_mult
+# 
+# Top level modules:
+# 	tb_MBE_mult
+# vsim work.tb_MBE_mult 
+# Loading work.tb_MBE_mult(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading work.data_maker(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.mbe_mult(arch)#1
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.dadda_tree(struct)
+# Loading work.ha(behaviour)
+# Loading work.fa(behaviour)
+# Loading work.data_sink(beh)
+quit -sim

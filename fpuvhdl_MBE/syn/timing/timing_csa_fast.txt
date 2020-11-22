@@ -1,0 +1,59 @@
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Fri Nov 13 11:14:15 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: FP_A[0] (input port clocked by MY_CLK)
+  Endpoint: I2/mult_166/MY_CLK_r_REG350_S1
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPmul              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.50       0.50 f
+  FP_A[0] (in)                                            0.00       0.50 f
+  I2/mult_166/A[0] (FPmul_DW02_mult_0)                    0.00       0.50 f
+  I2/mult_166/U489/ZN (INV_X1)                            0.14       0.64 r
+  I2/mult_166/U571/ZN (NOR2_X1)                           0.05       0.69 f
+  I2/mult_166/U83/Z (XOR2_X1)                             0.08       0.77 f
+  I2/mult_166/S2_2_18/S (FA_X1)                           0.13       0.91 r
+  I2/mult_166/S2_3_17/S (FA_X1)                           0.12       1.02 f
+  I2/mult_166/U1321/ZN (OAI21_X1)                         0.04       1.06 r
+  I2/mult_166/U1308/ZN (NAND2_X1)                         0.03       1.09 f
+  I2/mult_166/U1209/ZN (XNOR2_X1)                         0.06       1.16 f
+  I2/mult_166/U1346/ZN (XNOR2_X1)                         0.06       1.21 f
+  I2/mult_166/MY_CLK_r_REG350_S1/D (DFF_X1)               0.01       1.22 f
+  data arrival time                                                  1.22
+
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                      -0.07      -0.07
+  I2/mult_166/MY_CLK_r_REG350_S1/CK (DFF_X1)              0.00      -0.07 r
+  library setup time                                     -0.04      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.22
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.33
+
+
+1

@@ -1,0 +1,577 @@
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# ** Error: (vcom-19) Failed to access library './work' at "./work".
+# No such file or directory. (errno = ENOENT)
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 2
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/mux_4to1_nbit.vhd"
+vlib work
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(36): Actual (infix expression) for formal "i1" is not a globally static expression.
+# ** Error: ../src/MBE_encoder.vhd(36): Actual (infix expression) for formal "i2" is not a globally static expression.
+# ** Error: ../src/MBE_encoder.vhd(36): Actual (infix expression) for formal "i3" is not a globally static expression.
+# ** Error: ../src/MBE_encoder.vhd(36): (vcom-1035) Formal port "sel" has no actual associated with it.
+# ** Error: ../src/MBE_encoder.vhd(36): Signal "q" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_arith.signed.
+# ** Error: ../src/MBE_encoder.vhd(41): (vcom-1076) OTHERS choice can not be used in unconstrained array aggregate.
+# ** Error: ../src/MBE_encoder.vhd(43): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(40): Signal "a_2" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_arith.signed.
+# ** Error: ../src/MBE_encoder.vhd(40): Signal "a_0" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_arith.signed.
+# ** Error: ../src/MBE_encoder.vhd(40): Signal "a_0" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_arith.signed.
+# ** Error: ../src/MBE_encoder.vhd(40): (vcom-1035) Formal port "sel" has no actual associated with it.
+# ** Error: ../src/MBE_encoder.vhd(40): Signal "q" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_arith.signed.
+# ** Error: ../src/MBE_encoder.vhd(45): (vcom-1076) OTHERS choice can not be used in unconstrained array aggregate.
+# ** Error: ../src/MBE_encoder.vhd(47): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+vsim work.mux_4to1_nbit
+# vsim work.mux_4to1_nbit 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.mux_4to1_nbit(behaviour)#1
+quit -sim
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(40): (vcom-1035) Formal port "sel" has no actual associated with it.
+# ** Error: ../src/MBE_encoder.vhd(45): (vcom-1076) OTHERS choice can not be used in unconstrained array aggregate.
+# ** Error: ../src/MBE_encoder.vhd(47): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(45): (vcom-1076) OTHERS choice can not be used in unconstrained array aggregate.
+# ** Error: ../src/MBE_encoder.vhd(47): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(45): No feasible entries for infix operator "xor".
+# ** Error: ../src/MBE_encoder.vhd(45): Type error resolving infix expression "xor" as type ieee.std_logic_1164.std_logic_vector.
+# ** Error: ../src/MBE_encoder.vhd(47): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(46): (vcom-1136) Unknown identifier "resize".
+# ** Error: ../src/MBE_encoder.vhd(49): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# ** Error: ../src/MBE_encoder.vhd(47): No feasible entries for subprogram "resize".
+# ** Error: ../src/MBE_encoder.vhd(50): VHDL Compiler exiting
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 3
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ../src/MBE_encoder.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# ** Error: ./tb/data_maker.vhd(16): near "end": expecting: IDENTIFIER
+# ** Error: ./tb/data_maker.vhd(26): near "in": expecting: ';'
+# ** Error: ./tb/data_maker.vhd(27): near ";": expecting: ')' ','
+# ** Error: ./tb/data_maker.vhd(41): near "process": expecting: ';'
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 7
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# ** Error: ./tb/data_maker.vhd(26): near "in": expecting: ';'
+# ** Error: ./tb/data_maker.vhd(27): near ";": expecting: ')' ','
+# ** Error: ./tb/data_maker.vhd(41): near "process": expecting: ';'
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 7
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_encoder
+# 
+# Top level modules:
+# 	tb_MBE_encoder
+# vsim work.tb_MBE_encoder 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_MBE_encoder(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.data_maker(beh)
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.data_sink(beh)
+# ** Fatal: (vsim-3421) Value 8 is out of range 0 to 7.
+#    Time: 75 ns  Iteration: 2  Process: /tb_MBE_encoder/SM/line__22 File: ./tb/data_maker.vhd
+# Fatal error in Process line__22 at ./tb/data_maker.vhd line 35
+# 
+quit -sim
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# ** Error: ./tb/data_maker.vhd(45): near "process": expecting: IF
+# ** Error: ./tb/data_maker.vhd(49): near "beh": expecting: PROCESS
+# ** Error: /software/mentor/modelsim_6.2g/linux/vcom failed.
+# Error in macro ./sim_MBE_encoder.do line 7
+# /software/mentor/modelsim_6.2g/linux/vcom failed.
+#     while executing
+# "vcom -93 -work ./work ./tb/data_maker.vhd"
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_encoder
+# 
+# Top level modules:
+# 	tb_MBE_encoder
+# vsim work.tb_MBE_encoder 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_MBE_encoder(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.data_maker(beh)
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.data_sink(beh)
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_encoder
+# 
+# Top level modules:
+# 	tb_MBE_encoder
+# vsim work.tb_MBE_encoder 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_MBE_encoder(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.data_maker(beh)
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.data_sink(beh)
+do sim_MBE_encoder.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_4to1_nbit
+# -- Compiling architecture behaviour of mux_4to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package numeric_std
+# -- Compiling entity mbe_encoder
+# -- Compiling architecture beh of mbe_encoder
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity clk_gen
+# -- Compiling architecture beh of clk_gen
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity data_sink
+# -- Compiling architecture beh of data_sink
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package numeric_std
+# -- Compiling entity data_maker
+# -- Compiling architecture beh of data_maker
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module tb_MBE_encoder
+# 
+# Top level modules:
+# 	tb_MBE_encoder
+# vsim work.tb_MBE_encoder 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_MBE_encoder(fast)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.clk_gen(beh)
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_textio(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.data_maker(beh)
+# Loading work.mbe_encoder(beh)#1
+# Loading work.mux_4to1_nbit(behaviour)#1
+# Loading work.data_sink(beh)
+quit -sim

@@ -25,9 +25,9 @@ def matrix_generator(mat):
 
 		# append di una lista a mat col bit di segno negato (se siamo al pp1 la lista è già creata)
 		if i == 1:
-			mat[i*2+33].append("NOT(s(" + str(i) + "))")
+			mat[i*2+33].append("s_n(" + str(i) + ")")
 		else:
-			mat.append(["NOT(s(" + str(i) + "))"])
+			mat.append(["s_n(" + str(i) + ")"])
 
 		# aggiunta del 1 al fondo (tranne per il primo e il penultimo)
 		if i != 0 and i != 15:

@@ -1,0 +1,12 @@
+H 2141964 11 3 0 6 2 0 0 0 0
+L 4 ieee 19 $MODEL_TECH/../ieee
+L 3 std 18 $MODEL_TECH/../std
+L 4 work 6 ./work
+D 19 ./work.clk_gen(beh) NO7_gNL12I:1I665ao4Gj3 2 1
+D 22 ./work.data_maker(beh) 6H7=dSiOQJBfLz0_BhG4c3 3 1
+D 21 ./work.data_sink(beh) L9KBek6gVZle?NNJa>kA:3 5 1
+D 23 ./work.mbe_encoder(beh) [VM:fm?2d6JTWRnO?GA5g0 4 1
+D 31 ./work.mux_4to1_nbit(behaviour) gZja^AlT_e;R9X:EdbKH11 0 1
+D 21 ./work.tb_MBE_encoder i2UCOzlBAP?PHQi`Z]<1n1 1 0
+2 0  1 badV:??e4TF0UNGlNIFC_3 0 0 1
+2 4 fast 0 RlnI@4@4IPG35mNDd0^:k1 1 1 1

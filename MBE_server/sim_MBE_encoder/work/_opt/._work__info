@@ -1,0 +1,49 @@
+m255
+13
+cModel Technology
+d/home/isa07/Desktop/Lab2/MBE/sim_MBE_encoder
+T_opt
+VO_PGkQBMgG@B7jeScX4SM1
+06 13 9 ./work mux_4to1_nbit behaviour 1
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2g;35
+Embe_encoder
+w1605969661
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../src/MBE_encoder.vhd
+F../src/MBE_encoder.vhd
+l0
+L5
+VjXEAoD^3l1iR>k^Jk[1B21
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Emux_4to1_nbit
+w1605957292
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+8../src/mux_4to1_nbit.vhd
+F../src/mux_4to1_nbit.vhd
+l0
+L5
+Vb@WYF<JHaVUBPchfhnFA`0
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
+Abehaviour
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_4to1_nbit b@WYF<JHaVUBPchfhnFA`0
+31
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l15
+L14
+VgZja^AlT_e;R9X:EdbKH11
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
