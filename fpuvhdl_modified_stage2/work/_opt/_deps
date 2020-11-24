@@ -1,0 +1,28 @@
+H 2141964 11 3 0 14 10 0 0 0 0
+L 4 ieee 19 $MODEL_TECH/../ieee
+L 3 std 18 $MODEL_TECH/../std
+L 4 work 6 ./work
+D 19 ./work.clk_gen(beh) NO7_gNL12I:1I665ao4Gj3 9 1
+D 22 ./work.data_maker(beh) Rmd=DfiZ6LZh3kFKg^A^h3 10 1
+D 21 ./work.data_sink(beh) 0ZATSJ<QBF2cZbZl0n3S52 13 1
+D 22 ./work.fpmul(pipeline) P5I_SD7_LLaV8l9[<nW^J1 12 1
+D 27 ./work.fpmul_stage1(struct) X4C:zJ@ciddRk08ZM8@5W3 2 1
+D 27 ./work.fpmul_stage2(struct) mL;bck0MW7DQKS1zH`;Y91 11 1
+D 27 ./work.fpmul_stage3(struct) I27kNMf@^_dDF?mX[?UmU0 5 1
+D 27 ./work.fpmul_stage4(struct) zWU>=bEMieo>ZNkD=C?=R2 7 1
+D 31 ./work.fpnormalize(fpnormalize) >ICK?B]ciEBfk9nDK573=3 3 1
+D 23 ./work.fpround(fpround) ;Zlz?mFR7bL6<Si4iO^>;3 4 1
+D 21 ./work.packfp(packfp) ::WW?]=P6L:iPE`3NNO[O0 6 1
+D 25 ./work.regnbit(behaviour) D<fiVAamk:05@oZjEzhH82 0 1
+D 19 ./work.tb_mult_pipe H8FbO64i[adSXA2=8[X;61 8 0
+D 25 ./work.unpackfp(unpackfp) 5kT:h0NeIW3J8Udf_5WZN2 1 1
+2 0  1 IOFoJfLVD]A9O=>jU2V<R2 4 4 1
+2 0  1 h@mA7?[Khh0V26?k5UWE<1 5 5 1
+2 0  0 i^`^O1TNNJA4n2VI_`0RO0 6 6 1
+2 0  0 3:AGIjCAMnlMC=zoF>^4o0 7 7 1
+2 4 fast 0 l@KDNY9e8zIO>A85M<6083 8 8 1
+2 0  1 I;_;hEU253E@zD4;Doobi3 0 0 1
+2 0  0 L]noReBZMWhRPfVkY=2IM3 1 1 1
+2 0  0 LdQajE]g^OSlidTCeS87J2 2 2 1
+2 0  1 HEB3mYJfnDXSBB@l65A5F3 3 3 1
+2 0  0 =UjFG9F_G3B3W?=`0daYL3 9 11 1
