@@ -1,0 +1,1 @@
+l'uscita e' valida dopo 5 colpi di clock perche' si ha 4 registri di pipe + un registro in data_sink.
