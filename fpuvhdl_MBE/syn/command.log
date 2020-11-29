@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version O-2018.06-SP4 for linux64 -- Nov 27, 2018
-#@ # Date:   Sat Nov 14 12:48:24 2020
+#@ # Date:   Sun Nov 22 18:07:44 2020
 #@ # Run by: isa07@localhost.localdomain
 #@ 
 
@@ -6628,18 +6628,18 @@ source /software/synopsys/syn_current_64.18/admin/setup/.synopsys_dc.setup
 
 #@ # -- End source /software/synopsys/syn_current_64.18/admin/setup/.synopsys_dc.setup
 
-source /home/isa07/Desktop/Lab2/fpuvhdl_modified_stage2/syn/.synopsys_dc.setup
-#@ # -- Starting source /home/isa07/Desktop/Lab2/fpuvhdl_modified_stage2/syn/.synopsys_dc.setup
+source /home/isa07/Desktop/Lab2/fpuvhdl_MBE/syn/.synopsys_dc.setup
+#@ # -- Starting source /home/isa07/Desktop/Lab2/fpuvhdl_MBE/syn/.synopsys_dc.setup
 
 #@ define_design_lib WORK -path ./work
 #@ set search_path [list . /software/synopsys/syn_current_64.18/libraries/syn /software/dk/nangate45/synopsys ]
 #@ set link_library [list "*" "NangateOpenCellLibrary_typical_ecsm_nowlm.db" "dw_foundation.sldb" ]
 #@ set target_library [list "NangateOpenCellLibrary_typical_ecsm_nowlm.db" ]
 #@ set synthetic_library [list "dw_foundation.sldb" ]
-#@ # -- End source /home/isa07/Desktop/Lab2/fpuvhdl_modified_stage2/syn/.synopsys_dc.setup
+#@ # -- End source /home/isa07/Desktop/Lab2/fpuvhdl_MBE/syn/.synopsys_dc.setup
 
-source ./scripts/synt_pparch_max_speed.scr
-#@ # -- Starting source ./scripts/synt_pparch_max_speed.scr
+source ./scripts/synt_max_speed_ultra_prova.scr
+#@ # -- Starting source ./scripts/synt_max_speed_ultra_prova.scr
 
 #@ set power_preserve_rtl_hier_names true
 #@ analyze -f vhdl -lib  WORK ../common/fpnormalize_fpnormalize.vhd
@@ -6648,7 +6648,15 @@ source ./scripts/synt_pparch_max_speed.scr
 #@ analyze -f vhdl -lib  WORK ../common/unpackfp_unpackfp.vhd
 #@ 
 #@ analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage1_struct.vhd
-#@ analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage2_struct_modified.vhd
+#@ 
+#@ analyze -f vhdl -lib  WORK ../multiplier/FA.vhd
+#@ analyze -f vhdl -lib  WORK ../multiplier/HA.vhd
+#@ analyze -f vhdl -lib  WORK ../multiplier/mux_4to1_nbit.vhd
+#@ analyze -f vhdl -lib  WORK ../multiplier/MBE_encoder.vhd
+#@ analyze -f vhdl -lib  WORK ../multiplier/dadda_tree.vhd
+#@ analyze -f vhdl -lib  WORK ../multiplier/MBE_mult.vhd
+#@ 
+#@ analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage2_MBE.vhd
 #@ analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage3_struct.vhd
 #@ analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage4_struct.vhd
 #@ analyze -f vhdl -lib  WORK ../multiplier/regnbit.vhd
@@ -6659,7 +6667,7 @@ source ./scripts/synt_pparch_max_speed.scr
 #@ elaborate FPmul -arch pipeline -lib WORK > ./elaborate.txt
 #@ uniquify
 #@ link
-#@ create_clock -name  MY_CLK -period 0.78 CLK
+#@ create_clock -name  MY_CLK -period 1.64 CLK
 #@ set_dont_touch_network MY_CLK
 #@ set_clock_uncertainty 0.07 [get_clocks MY_CLK]
 #@ 
@@ -6669,15 +6677,13 @@ source ./scripts/synt_pparch_max_speed.scr
 #@ set_load $OLOAD [all_outputs]
 #@ 
 #@ ungroup -all -flatten
-#@ set_implementation DW02_mult/pparch [find cell *mult*]
-#@ compile
-#@ optimize_registers
+#@ compile_ultra
 #@ 
 #@ check_design
-#@ report_timing > ./timing/timing_pparch_max_speed.txt
-#@ report_area > ./area/area_pparch_max_speed.txt
-#@ report_resources > ./resources/resources_pparch_max_speed.txt
+#@ report_timing > ./timing/timing_max_speed_ultra_prova.txt
+#@ report_area > ./area/area_max_speed_ultra_prova.txt
+#@ report_resources > ./resources/resources_max_speed_ultra_prova.txt
 #@ 
-#@ # -- End source ./scripts/synt_pparch_max_speed.scr
+#@ # -- End source ./scripts/synt_max_speed_ultra_prova.scr
 
 quit

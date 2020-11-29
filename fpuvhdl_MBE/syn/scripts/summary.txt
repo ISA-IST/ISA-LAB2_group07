@@ -1,42 +1,15 @@
-PPARCH:
-fast -> 0.78
-max_speed -> 0.78
-Prove:
-0.78 OK
-0.75 NO
-0.76 NO
-0.77 NO
+MBE:
+fast -> 1.53
 
-PPARCH_ultra:
-fast -> 1.51
-max_speed -> 1.42
-Prove:
-1.41 NO
-1.42 OK
+1.43 NO (0.21)
+1.53 NO (0.08)
+1.60 NO (0.02)
+1.62 NO (0.02)
+1.64 OK
 
+-- previous results
 
-CSA:
-fast -> 1.33
-max_speed -> 1.33 OK
-Prove:
-1.30 OK
-1.27 OK
-1.25 OK
-1.20 NO
-1.24 NO 
-
-CSA_ultra:
-fast -> 1.51
-max_speed -> 1.42
-Prove: 
-1.51 OK
-1.40 NO (increase significands)
-1.41 NO *
-1.45 OK
-1.43 OK
-1.42 OK
-
-Normal:
+Normal_withoutMBE:
 fast -> 0.94
 max_speed -> 1.0 OK
 Prove:
@@ -44,7 +17,7 @@ Prove:
 0.8 OK
 0.7 NO
 
-Normal_ultra:
+Normal_ultra_withoutMBE:
 fast -> 1.51
 max_speed -> 1.52 OK
 Prove:

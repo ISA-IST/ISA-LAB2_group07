@@ -7,47 +7,33 @@ Prove:
 0.76 NO
 0.77 NO
 
-PPARCH_ultra:
-fast -> 1.51
-max_speed -> 1.42
-Prove:
-1.41 NO
-1.42 OK
-
 
 CSA:
 fast -> 1.33
-max_speed -> 1.33 OK
+max_speed -> 1.25
 Prove:
+1.33 OK
 1.30 OK
 1.27 OK
 1.25 OK
 1.20 NO
 1.24 NO 
 
-CSA_ultra:
-fast -> 1.51
-max_speed -> 1.42
-Prove: 
-1.51 OK
-1.40 NO (increase significands)
-1.41 NO *
-1.45 OK
-1.43 OK
-1.42 OK
 
 Normal:
 fast -> 0.94
-max_speed -> 1.0 OK
+max_speed -> 0.8
 Prove:
+1.0 OK
 0.9 OK
 0.8 OK
 0.7 NO
 
 Normal_ultra:
 fast -> 1.51
-max_speed -> 1.52 OK
+max_speed -> 1.42
 Prove:
+1.52 OK
 1.42 OK
 1.41 NO
 1.40 NO 

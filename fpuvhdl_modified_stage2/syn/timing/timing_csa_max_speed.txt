@@ -7,15 +7,15 @@ Report : timing
         -max_paths 1
 Design : FPmul
 Version: O-2018.06-SP4
-Date   : Fri Nov 13 11:31:47 2020
+Date   : Fri Nov 13 13:41:49 2020
 ****************************************
 
 Operating Conditions: typical   Library: NangateOpenCellLibrary
 Wire Load Model Mode: top
 
-  Startpoint: MY_CLK_r_REG72_S5
+  Startpoint: I2/mult_166/MY_CLK_r_REG453_S2
               (rising edge-triggered flip-flop clocked by MY_CLK)
-  Endpoint: MY_CLK_r_REG39_S6
+  Endpoint: I2/mult_166/MY_CLK_r_REG239_S3
             (rising edge-triggered flip-flop clocked by MY_CLK)
   Path Group: MY_CLK
   Path Type: max
@@ -28,42 +28,31 @@ Wire Load Model Mode: top
   --------------------------------------------------------------------------
   clock MY_CLK (rise edge)                                0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  MY_CLK_r_REG72_S5/CK (DFF_X1)                           0.00       0.00 r
-  MY_CLK_r_REG72_S5/Q (DFF_X1)                            0.09       0.09 r
-  I3/I11/add_45/A[10] (FPmul_DW01_inc_0)                  0.00       0.09 r
-  I3/I11/add_45/U1_1_10/CO (HA_X1)                        0.06       0.15 r
-  I3/I11/add_45/U1_1_11/CO (HA_X1)                        0.06       0.22 r
-  I3/I11/add_45/U1_1_12/CO (HA_X1)                        0.06       0.28 r
-  I3/I11/add_45/U1_1_13/CO (HA_X1)                        0.06       0.34 r
-  I3/I11/add_45/U1_1_14/CO (HA_X1)                        0.06       0.40 r
-  I3/I11/add_45/U1_1_15/CO (HA_X1)                        0.06       0.46 r
-  I3/I11/add_45/U1_1_16/CO (HA_X1)                        0.06       0.52 r
-  I3/I11/add_45/U1_1_17/CO (HA_X1)                        0.06       0.58 r
-  I3/I11/add_45/U1_1_18/CO (HA_X1)                        0.06       0.64 r
-  I3/I11/add_45/U1_1_19/CO (HA_X1)                        0.06       0.71 r
-  I3/I11/add_45/U1_1_20/CO (HA_X1)                        0.06       0.77 r
-  I3/I11/add_45/U1_1_21/CO (HA_X1)                        0.06       0.83 r
-  I3/I11/add_45/U1_1_22/CO (HA_X1)                        0.06       0.89 r
-  I3/I11/add_45/U1_1_23/CO (HA_X1)                        0.05       0.94 r
-  I3/I11/add_45/SUM[24] (FPmul_DW01_inc_0)                0.00       0.94 r
-  U206/ZN (AND2_X1)                                       0.05       0.99 r
-  U355/ZN (AND2_X1)                                       0.05       1.04 r
-  U354/ZN (AND2_X1)                                       0.05       1.09 r
-  U353/ZN (AND2_X1)                                       0.05       1.13 r
-  U352/ZN (AND2_X1)                                       0.04       1.18 r
-  U351/ZN (AND2_X1)                                       0.04       1.22 r
-  MY_CLK_r_REG39_S6/D (DFF_X1)                            0.01       1.23 r
-  data arrival time                                                  1.23
+  I2/mult_166/MY_CLK_r_REG453_S2/CK (DFF_X2)              0.00       0.00 r
+  I2/mult_166/MY_CLK_r_REG453_S2/Q (DFF_X2)               0.13       0.13 r
+  I2/mult_166/U913/ZN (NOR2_X1)                           0.04       0.17 f
+  I2/mult_166/S2_12_7/CO (FA_X1)                          0.11       0.28 f
+  I2/mult_166/U1265/ZN (OAI21_X2)                         0.05       0.33 r
+  I2/mult_166/U1263/ZN (NAND2_X1)                         0.03       0.36 f
+  I2/mult_166/S2_14_7/CO (FA_X1)                          0.10       0.47 f
+  I2/mult_166/S2_15_7/CO (FA_X1)                          0.11       0.57 f
+  I2/mult_166/S2_16_7/CO (FA_X1)                          0.11       0.68 f
+  I2/mult_166/S2_17_7/CO (FA_X1)                          0.11       0.79 f
+  I2/mult_166/S2_18_7/CO (FA_X1)                          0.11       0.89 f
+  I2/mult_166/S2_19_7/CO (FA_X1)                          0.11       1.00 f
+  I2/mult_166/S2_20_7/S (FA_X1)                           0.14       1.14 r
+  I2/mult_166/MY_CLK_r_REG239_S3/D (DFF_X1)               0.01       1.15 r
+  data arrival time                                                  1.15
 
-  clock MY_CLK (rise edge)                                1.33       1.33
-  clock network delay (ideal)                             0.00       1.33
-  clock uncertainty                                      -0.07       1.26
-  MY_CLK_r_REG39_S6/CK (DFF_X1)                           0.00       1.26 r
-  library setup time                                     -0.03       1.23
-  data required time                                                 1.23
+  clock MY_CLK (rise edge)                                1.25       1.25
+  clock network delay (ideal)                             0.00       1.25
+  clock uncertainty                                      -0.07       1.18
+  I2/mult_166/MY_CLK_r_REG239_S3/CK (DFF_X1)              0.00       1.18 r
+  library setup time                                     -0.03       1.15
+  data required time                                                 1.15
   --------------------------------------------------------------------------
-  data required time                                                 1.23
-  data arrival time                                                 -1.23
+  data required time                                                 1.15
+  data arrival time                                                 -1.15
   --------------------------------------------------------------------------
   slack (MET)                                                        0.00
 

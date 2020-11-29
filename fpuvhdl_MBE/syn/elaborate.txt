@@ -39,8 +39,8 @@ Presto compilation completed successfully.
 Information: Building the design 'FPmul_stage2'. (HDL-193)
 
 Inferred memory devices in process
-	in routine FPmul_stage2 line 96 in file
-		'../multiplier/fpmul_stage2_struct_modified.vhd'.
+	in routine FPmul_stage2 line 105 in file
+		'../multiplier/fpmul_stage2_MBE.vhd'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
@@ -51,8 +51,8 @@ Inferred memory devices in process
 ===============================================================================
 
 Inferred memory devices in process
-	in routine FPmul_stage2 line 106 in file
-		'../multiplier/fpmul_stage2_struct_modified.vhd'.
+	in routine FPmul_stage2 line 115 in file
+		'../multiplier/fpmul_stage2_MBE.vhd'.
 =================================================================================
 |     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 =================================================================================
@@ -63,8 +63,8 @@ Inferred memory devices in process
 =================================================================================
 
 Inferred memory devices in process
-	in routine FPmul_stage2 line 119 in file
-		'../multiplier/fpmul_stage2_struct_modified.vhd'.
+	in routine FPmul_stage2 line 128 in file
+		'../multiplier/fpmul_stage2_MBE.vhd'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
@@ -75,8 +75,8 @@ Inferred memory devices in process
 ===============================================================================
 
 Inferred memory devices in process
-	in routine FPmul_stage2 line 131 in file
-		'../multiplier/fpmul_stage2_struct_modified.vhd'.
+	in routine FPmul_stage2 line 140 in file
+		'../multiplier/fpmul_stage2_MBE.vhd'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
@@ -125,6 +125,8 @@ Inferred memory devices in process
 Presto compilation completed successfully.
 Information: Building the design 'UnpackFP'. (HDL-193)
 Presto compilation completed successfully.
+Information: Building the design 'MBE_mult'. (HDL-193)
+Presto compilation completed successfully.
 Information: Building the design 'FPnormalize' instantiated from design 'FPmul_stage3' with
 	the parameters "SIG_width=28". (HDL-193)
 Presto compilation completed successfully.
@@ -132,5 +134,25 @@ Information: Building the design 'FPround' instantiated from design 'FPmul_stage
 	the parameters "SIG_width=28". (HDL-193)
 Presto compilation completed successfully.
 Information: Building the design 'PackFP'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'MBE_encoder'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'dadda_tree'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux_4to1_nbit' instantiated from design 'MBE_encoder' with
+	the parameters "N=33". (HDL-193)
+Warning:  ../multiplier/mux_4to1_nbit.vhd:20: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 18 in file
+	'../multiplier/mux_4to1_nbit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            20            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'HA'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'FA'. (HDL-193)
 Presto compilation completed successfully.
 1
