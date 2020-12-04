@@ -11,6 +11,6 @@ python3 dadda_tree.py
 
 cat ../src/intro.vhd ../src/signal.vhd ../src/tree.vhd ../src/final_stage.vhd > ../src/dadda_tree.vhd
 
-# rm intro.vhd signal.vhd tree.vhd final_stage.vhd
+rm ../src/intro.vhd ../src/signal.vhd ../src/tree.vhd ../src/final_stage.vhd
 
 
