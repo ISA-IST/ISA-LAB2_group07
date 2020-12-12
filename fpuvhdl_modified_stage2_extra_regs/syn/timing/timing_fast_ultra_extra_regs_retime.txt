@@ -1,0 +1,68 @@
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Thu Dec 10 16:24:15 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: I1/A_SIG_reg[7]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: I2/SIG_in_int_r_reg[24]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPmul              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock MY_CLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  I1/A_SIG_reg[7]/CK (DFF_X1)              0.00       0.00 r
+  I1/A_SIG_reg[7]/QN (DFF_X1)              0.09       0.09 f
+  U244/ZN (INV_X1)                         0.13       0.21 r
+  U670/ZN (XNOR2_X1)                       0.08       0.30 r
+  U269/ZN (OR2_X2)                         0.04       0.34 r
+  U1081/Z (BUF_X2)                         0.06       0.40 r
+  U1257/ZN (OAI22_X1)                      0.05       0.45 f
+  U1366/CO (FA_X1)                         0.09       0.54 f
+  U1409/S (FA_X1)                          0.13       0.67 f
+  U1408/S (FA_X1)                          0.15       0.82 r
+  U1376/S (FA_X1)                          0.12       0.93 f
+  U1415/S (FA_X1)                          0.14       1.07 r
+  U1375/ZN (NOR2_X1)                       0.03       1.10 f
+  U1416/ZN (NOR2_X1)                       0.05       1.15 r
+  U1491/ZN (NAND2_X1)                      0.04       1.19 f
+  U1678/ZN (NOR2_X1)                       0.04       1.23 r
+  U1683/ZN (AOI21_X1)                      0.03       1.26 f
+  U1684/Z (BUF_X2)                         0.05       1.31 f
+  U1892/ZN (OAI21_X1)                      0.05       1.36 r
+  U1904/ZN (XNOR2_X1)                      0.06       1.42 r
+  I2/SIG_in_int_r_reg[24]/D (DFF_X1)       0.01       1.43 r
+  data arrival time                                   1.43
+
+  clock MY_CLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                       -0.07      -0.07
+  I2/SIG_in_int_r_reg[24]/CK (DFF_X1)      0.00      -0.07 r
+  library setup time                      -0.03      -0.10
+  data required time                                 -0.10
+  -----------------------------------------------------------
+  data required time                                 -0.10
+  data arrival time                                  -1.43
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -1.53
+
+
+1

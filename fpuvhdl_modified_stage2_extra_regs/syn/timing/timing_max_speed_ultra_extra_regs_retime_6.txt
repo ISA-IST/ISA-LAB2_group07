@@ -1,0 +1,64 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Fri Dec 11 09:17:17 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: R_543 (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: R_431 (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPmul              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock MY_CLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  R_543/CK (DFF_X2)                        0.00       0.00 r
+  R_543/Q (DFF_X2)                         0.16       0.16 r
+  U1578/Z (MUX2_X1)                        0.09       0.24 r
+  U1729/CO (HA_X1)                         0.07       0.31 r
+  U1731/CO (HA_X1)                         0.06       0.37 r
+  U1733/CO (HA_X1)                         0.06       0.42 r
+  U1735/CO (HA_X1)                         0.06       0.48 r
+  U1737/CO (HA_X1)                         0.06       0.54 r
+  U1739/CO (HA_X1)                         0.06       0.60 r
+  U1741/CO (HA_X1)                         0.06       0.65 r
+  U1743/CO (HA_X1)                         0.06       0.71 r
+  U1745/CO (HA_X1)                         0.06       0.77 r
+  U1747/CO (HA_X1)                         0.06       0.83 r
+  U1749/CO (HA_X1)                         0.06       0.89 r
+  U1751/CO (HA_X1)                         0.06       0.94 r
+  U1753/CO (HA_X1)                         0.06       1.00 r
+  U1755/CO (HA_X1)                         0.06       1.06 r
+  U1757/CO (HA_X1)                         0.06       1.12 r
+  U1593/S (HA_X1)                          0.07       1.19 r
+  R_431/D (DFF_X1)                         0.01       1.19 r
+  data arrival time                                   1.19
+
+  clock MY_CLK (rise edge)                 1.30       1.30
+  clock network delay (ideal)              0.00       1.30
+  clock uncertainty                       -0.07       1.23
+  R_431/CK (DFF_X1)                        0.00       1.23 r
+  library setup time                      -0.03       1.20
+  data required time                                  1.20
+  -----------------------------------------------------------
+  data required time                                  1.20
+  data arrival time                                  -1.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1
