@@ -1,0 +1,45 @@
+set power_preserve_rtl_hier_names true
+analyze -f vhdl -lib  WORK ../common/fpnormalize_fpnormalize.vhd
+analyze -f vhdl -lib  WORK ../common/fpround_fpround.vhd
+analyze -f vhdl -lib  WORK ../common/packfp_packfp.vhd
+analyze -f vhdl -lib  WORK ../common/unpackfp_unpackfp.vhd
+
+analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage1_struct.vhd
+
+analyze -f vhdl -lib  WORK ../multiplier/FA.vhd
+analyze -f vhdl -lib  WORK ../multiplier/HA.vhd
+analyze -f vhdl -lib  WORK ../multiplier/mux_4to1_nbit.vhd
+analyze -f vhdl -lib  WORK ../multiplier/MBE_encoder.vhd
+analyze -f vhdl -lib  WORK ../multiplier/dadda_tree.vhd
+analyze -f vhdl -lib  WORK ../multiplier/MBE_mult.vhd
+
+analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage2_MBE.vhd
+analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage3_struct.vhd
+analyze -f vhdl -lib  WORK ../multiplier/fpmul_stage4_struct.vhd
+analyze -f vhdl -lib  WORK ../multiplier/regnbit.vhd
+analyze -f vhdl -lib  WORK ../multiplier/fpmul_pipeline.vhd
+
+
+
+elaborate FPmul -arch pipeline -lib WORK > ./elaborate.txt
+uniquify
+link
+create_clock -name  MY_CLK -period 0.90 CLK
+set_dont_touch_network MY_CLK
+set_clock_uncertainty 0.07 [get_clocks MY_CLK]
+
+set_input_delay  0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] CLK]
+set_output_delay  0.5 -max -clock MY_CLK [all_outputs]
+set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+set_load $OLOAD [all_outputs]
+
+
+optimize_registers
+compile
+
+
+check_design
+report_timing > ./timing/timing_max_speed_opt_reg_relaxed.txt
+report_area > ./area/area_max_speed_opt_reg_relaxed.txt
+report_resources > ./resources/resources_max_speed_opt_reg_relaxed.txt
+

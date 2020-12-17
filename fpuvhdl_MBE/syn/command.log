@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version O-2018.06-SP4 for linux64 -- Nov 27, 2018
-#@ # Date:   Sun Nov 22 18:07:44 2020
+#@ # Date:   Thu Dec 17 18:54:54 2020
 #@ # Run by: isa07@localhost.localdomain
 #@ 
 
@@ -6628,18 +6628,18 @@ source /software/synopsys/syn_current_64.18/admin/setup/.synopsys_dc.setup
 
 #@ # -- End source /software/synopsys/syn_current_64.18/admin/setup/.synopsys_dc.setup
 
-source /home/isa07/Desktop/Lab2/fpuvhdl_MBE/syn/.synopsys_dc.setup
-#@ # -- Starting source /home/isa07/Desktop/Lab2/fpuvhdl_MBE/syn/.synopsys_dc.setup
+source /home/isa07/Desktop/ISA-LAB2_group07/fpuvhdl_MBE/syn/.synopsys_dc.setup
+#@ # -- Starting source /home/isa07/Desktop/ISA-LAB2_group07/fpuvhdl_MBE/syn/.synopsys_dc.setup
 
 #@ define_design_lib WORK -path ./work
 #@ set search_path [list . /software/synopsys/syn_current_64.18/libraries/syn /software/dk/nangate45/synopsys ]
 #@ set link_library [list "*" "NangateOpenCellLibrary_typical_ecsm_nowlm.db" "dw_foundation.sldb" ]
 #@ set target_library [list "NangateOpenCellLibrary_typical_ecsm_nowlm.db" ]
 #@ set synthetic_library [list "dw_foundation.sldb" ]
-#@ # -- End source /home/isa07/Desktop/Lab2/fpuvhdl_MBE/syn/.synopsys_dc.setup
+#@ # -- End source /home/isa07/Desktop/ISA-LAB2_group07/fpuvhdl_MBE/syn/.synopsys_dc.setup
 
-source ./scripts/synt_max_speed_ultra_prova.scr
-#@ # -- Starting source ./scripts/synt_max_speed_ultra_prova.scr
+source scripts/synt_max_speed_classic.scr
+#@ # -- Starting source scripts/synt_max_speed_classic.scr
 
 #@ set power_preserve_rtl_hier_names true
 #@ analyze -f vhdl -lib  WORK ../common/fpnormalize_fpnormalize.vhd
@@ -6667,7 +6667,7 @@ source ./scripts/synt_max_speed_ultra_prova.scr
 #@ elaborate FPmul -arch pipeline -lib WORK > ./elaborate.txt
 #@ uniquify
 #@ link
-#@ create_clock -name  MY_CLK -period 1.64 CLK
+#@ create_clock -name  MY_CLK -period 2.15 CLK
 #@ set_dont_touch_network MY_CLK
 #@ set_clock_uncertainty 0.07 [get_clocks MY_CLK]
 #@ 
@@ -6676,14 +6676,36 @@ source ./scripts/synt_max_speed_ultra_prova.scr
 #@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
 #@ set_load $OLOAD [all_outputs]
 #@ 
-#@ ungroup -all -flatten
-#@ compile_ultra
+#@ 
+#@ 
+#@ compile -exact_map
+#@ 
 #@ 
 #@ check_design
-#@ report_timing > ./timing/timing_max_speed_ultra_prova.txt
-#@ report_area > ./area/area_max_speed_ultra_prova.txt
-#@ report_resources > ./resources/resources_max_speed_ultra_prova.txt
+#@ report_timing > ./timing/timing_max_speed_classic.txt
+#@ report_area > ./area/area_max_speed_classic.txt
+#@ report_resources > ./resources/resources_max_speed_classic.txt
 #@ 
-#@ # -- End source ./scripts/synt_max_speed_ultra_prova.scr
+#@ # -- End source scripts/synt_max_speed_classic.scr
 
-quit
+current_instance I2/adder_tree
+current_instance I2
+current_instance adder_tree
+current_instance I2_mult
+current_instance adder_tree
+report_area
+current_instance ../pp16_enc
+report_area
+report_area > area/area_BEU_lento.txt
+current_instance ..
+report_area > area/area_I2_mult_lento.txt
+report_area
+current_instance ..
+current_instance ..
+current_instance adder_tree
+current_instance
+current_instance I2/I2_mult
+current_instance adder_tree
+report_area > area_adder_tree_lento.txt
+report_area
+report_area > area_adder_tree_lento.txt

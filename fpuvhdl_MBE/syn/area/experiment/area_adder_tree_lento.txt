@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : FPmul/I2/I2_mult/adder_tree (dadda_tree)
+Version: O-2018.06-SP4
+Date   : Thu Dec 17 22:01:00 2020
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db)
+
+Number of ports:                         3299
+Number of nets:                          5632
+Number of cells:                         2986
+Number of combinational cells:           2460
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                     525
+
+Combinational area:               2815.875979
+Buf/Inv area:                      519.232002
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  2815.875979
+Total area:                 undefined
+1
